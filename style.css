@@ -1,0 +1,244 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+
+
+/* --------land allocation on the web--------- */
+.container {
+    height: 100vh;
+    width: screen;
+    background-color: rgb(236, 236, 236);
+    overflow: hidden;
+}
+
+.header {
+    height: 10vh;
+    width: screen;
+    /* background-color: red; */
+}
+
+.content {
+    height: 80vh;
+    width: screen;
+    /* background-color: green; */
+    padding: 1rem;
+    overflow-y: scroll;
+    
+
+}
+
+wh
+.footer {
+    height: 10vh;
+    width: screen;
+    background-color: blue;
+}
+
+/* ------end of land allocation------- */
+
+
+
+
+.customDiv {
+    background-color: blue;
+    height: 2rem;
+    width: 2rem;
+
+}
+
+
+/* header */
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 2rem;
+}
+
+.logo{
+    font-size: 1.5rem;
+}
+
+.logoAndName {
+    display: flex;
+    align-items: center;
+    gap: .5rem;
+}
+
+.notification {
+    display: flex;
+    gap: 1rem;
+    font-size: 1.3rem;
+}
+
+
+.balance {
+    background-color: rgb(47, 175, 101);
+    height: 5rem;
+    width: auto;
+    border-radius: 1rem;
+    margin: 0 0 1rem 0;
+    padding: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.availableAndTransaction{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    color: white;
+}
+
+.availableBalance{
+    display: flex;
+    align-items: center;
+    gap: .5rem;
+}
+
+.transaction{
+    display: flex;
+    align-items: center;
+    gap: .5rem;
+}
+
+
+.down{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.viewMoney{
+    display: flex; 
+    align-items: center;
+    gap: .5rem;
+    color: white;
+}
+
+.viewMoney>p{
+
+font-size: 1.5rem;
+font-weight: bold;
+}
+
+
+
+.addMoney{
+    background-color: white;
+    padding: .4rem 1rem;
+    border-radius: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.addMoney>p{
+    color: rgb(47, 175, 101);
+}
+
+.transfer{
+    background-color: white;
+    height: 7rem;
+    width: 100%;
+    border-radius: 1rem;
+    margin: 0 0 1rem 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* padding: ; */
+    gap: 2rem;
+}
+
+.emailNotice{
+    background-color: white;
+    height: 5rem;
+    width: 100%;
+    border-radius: 1rem;
+    margin: 0 0 1rem 0;
+}
+
+.subscription{
+    background-color: white;
+    height: 16rem;
+    width: 100%;
+    border-radius: 1rem;
+    margin: 0 0 1rem 0;
+}
+
+.bonus{
+    background-color: red;
+    height:10rem;
+    width: 100%;
+    border-radius: 1rem;
+    margin: 0 0 1rem 0;
+}
+
+.box{
+    width: 5rem;
+    /* height: 5rem; */
+    height: fit-content;
+    padding: .5rem;
+    /* background-color: red; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: .5rem;
+}
+
+.boxIcon{
+    width: 2.5rem;
+    height: 2.5rem;
+    background-color: rgba(47, 175, 100, 0.192);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    border-radius: .5rem;
+}
+
+.boxIcon>i{
+   color: rgb(47, 175, 101);
+}
+
+.emailNotice{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+
+}
+
+.emailNotice img{
+    height: 2rem;
+    width: auto;
+
+}
+
+.upSub{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    /* background-color: red; */
+    height: 50%;
+}
+
+
+
+.downSub{
+   height: 50%;
+   display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    /* background-color: green; */
+}
